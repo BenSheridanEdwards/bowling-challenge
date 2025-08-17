@@ -47,20 +47,22 @@
         Frame 8 (Roll 2): <input type="text" name="F8R2"><br>
         Frame 9 (Roll 1): <input type="text" name="F9R1"><br>
         Frame 9 (Roll 2): <input type="text" name="F9R2"><br>
-        Frame 10 (Roll 1): <input type="text" name="F1OR1"><br>
+        Frame 10 (Roll 1): <input type="text" name="F10R1"><br>
         Frame 10 (Roll 2): <input type="text" name="F10R2"><br>
         Frame 10 (Roll 3): <input type="text" name="F10R3"><br><br>
         <input type ="submit" value="Calculate Score"></button>
       </form>
       </p>
     </section>
-    <script src=src/Frame.js></script>
-    <script src=src/Game.js></script>
+    <script src="src/Frame.js"></script>
+    <script src="src/Game.js"></script>
+    <script src="src/Interface.js"></script>
     <script>
-    
-      $( document ).ready(function() {
+      var interface;
       
-    
+      $( document ).ready(function() {
+        interface = new Interface();
+        interface.init();
       });
     
     </script>
