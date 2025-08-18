@@ -7,7 +7,7 @@ export default function Home() {
         </h1>
         <button
           type="button"
-          className="rounded-lg bg-primary px-8 py-4 text-lg font-medium text-white transition-colors duration-200 hover:bg-primary-hover focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+          className="rounded-lg bg-[#0070f3] px-8 py-4 text-lg font-medium text-white transition-colors duration-200 hover:bg-[#0051cc] focus:outline-none focus:ring-2 focus:ring-[#0070f3] focus:ring-offset-2"
           onClick={() => alert('Hello from Tailwind!')}
         >
           Click Me!
