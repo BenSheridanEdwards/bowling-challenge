@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+dist
+build
+*.lock
+bun.lockb
+cypress/videos
+cypress/screenshots
